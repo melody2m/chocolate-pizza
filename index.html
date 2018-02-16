@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
+    <!-- <script src="main.js"></script> -->
 </head>
 <body>
     <header>
+        <div>
         <img src = "img/logo.png"/>
-        <h2>Delicious</h2>
-        <h3>THE BEST FOOD BLOG ON THE WEB</h3>
+            <h2>Delicious</h2>
+            <h3>THE BEST FOOD BLOG ON THE WEB</h3>
+        </div>
         <nav>
             <ul>
                 <li><img src="img/fb-icon.png"/></li>
@@ -23,13 +26,17 @@
                 <li><img src="img/pint-icon.png"/></li>
                 <li><img src="img/rss-icon.png"/></li>
                 <li><img src="img/mail-icon.png"/></li>
-
             </ul>
         </nav>
     </header>
     <main>
         <h1>Chocolate Pizza</h1>
-        <h3>POSTED ON 15 DEC 2013/Desserts</h3>
+            <h3>POSTED ON 15 DEC 2013/Desserts
+            <h3 id="print">
+                <img src="img/print-icon.png"/>
+                PRINT
+            </h3>
+        </h3>
 
         <img src="img/choco-pizza.png"/>
 
@@ -42,20 +49,20 @@
         </article>
 
         <ul id="recipe">
-            <li>1 1/2 cupts milk</li>
-            <li>1/2 cup mascarpone</li>
-            <li>1/2 tsp pink salt
-            <li>1lb Black Mission Figs</li>
-            <li>1/2 cup brown sugar</li>
-            <li>2-4 tbsp water</li>
-            <li>1 1/2 cups heavy cream</li>
-            <li class ="linethrough">1/3 granulated sugar</li>
-            <li class ="linethrough">2 egg yolks</li>
-            <li> 1 lemon, juiced</li>
-            <li>2 tbsp butter</li>
-            <li>1 cup honey roasted pecans, roughly chopped</li>
-        </ul>    
-        <p>
+                <li><input type="checkbox" name="text1" value="value1" /><label for="text1">1 1/2 cupts milk</label></li>
+                <li><input type="checkbox" name="text1" value="value1" /><label for="text1">1/2 cup mascarpone</label></li>
+                <li><input type="checkbox" name="text1" value="value1" /><label for="text1">1/2 tsp pink salt</label></li>
+                <li><input type="checkbox" name="text1" value="value1" /><label for="text1">1lb Black Mission Figs</label></li>
+                <li><input type="checkbox" name="text1" value="value1" /><label for="text1">1/2 cup brown sugar</label></li>
+                <li><input type="checkbox" name="text1" value="value1" /><label for="text1">2-4 tbsp water</label></li>
+                <li><input type="checkbox" name="text1" value="value1" /><label for="text1">1 1/2 cups heavy cream</label></li>
+                <li class ="linethrough"><input type="checkbox" name="text1" value="value1" /><label for="text1">1/3 granulated sugar</label></li>
+                <li class ="linethrough"><input type="checkbox" name="text1" value="value1" /><label for="text1">2 egg yolks</label></li>
+                <li><input type="checkbox" name="text1" value="value1" /><label for="text1"> 1 lemon, juiced</label></li>
+                <li><input type="checkbox" name="text1" value="value1" /><label for="text1">2 tbsp butter</label></li>
+                <li><input type="checkbox" name="text1" value="value1" /><label for="text1">1 cup honey roasted pecans, roughly chopped</label></li>
+                </ul>
+        <p id= "author">
             <img src="img/van-pic.png"/>
             Vanessa Stevenson
             Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.
