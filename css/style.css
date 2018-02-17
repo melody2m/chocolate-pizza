@@ -14,29 +14,36 @@ li {
 
 header {
     border-bottom: 10px solid grey;
-    height: 100px;
+    height: 70px;
 }
 
 header div {
     float: left;
 }
+
+#rss {
+    margin-left: 3px;
+}
 header h2 {
     font-family: 'Cedarville Cursive', cursive;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    padding: 1px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    font-size: 22px;
 }
 header h3 {
-    font-size: 10px;
+    font-size: 8px;
     width: 300px;
-    margin-left: 100px;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 header div img {
     float:left;
     margin: 5px;
 }
 header nav {
-    margin: 10px 2px;
+    margin: 0px 2px;
     float: right;
 
 }
@@ -47,20 +54,74 @@ header li {
 main h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     width: 400px;
+    margin-bottom: 0px;
 }
-main h3 {
+
+#smalltext {
+    padding-bottom: 20px;
+}
+
+#postdate {
     font-size: 10px;
-    width: 400px;
+    float:left;
+    padding-top: 4px;
 }
-main h3 .print {
+
+#print {
     float:right;
+}
+
+#print p{
+    display: inline;
+}
+
+
+article {
+    text-indent: 50px;
 }
 
 #recipe {
     columns: 2;
-    background-image: url("img/list-bg.png");
+    background-image: url("../img/list-bg.png");
+    padding-top: 35px;
+    margin-bottom: 20px;
+}
+#recipe li{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-main #author {
-    border-top: 10px dashed grey;
+main section {
+    border-top: 10px solid grey;
 }
+
+#author1 {
+    height:100px;
+}
+#authorimage {
+    float: left;
+}
+
+#author {
+    float:left;
+}
+
+#name {
+    font-weight:bold;
+}
+
+button {
+    float:right;
+    margin-top: 30px;
+    margin-right:0px;
+    margin-left:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    width: 120px;
+}
+
+footer {
+    text-align:center;
+}
+
